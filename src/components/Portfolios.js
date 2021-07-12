@@ -7,9 +7,9 @@ export default class Portfolios extends Component {
         <nav className="lightblue">
           <div className="container">
             <div className="nav-wrapper">
-              designed by @ikonex softwares 
+            <marquee> designed by @ikonex softwares 
               0726837210
-              ikonetwork3@gmail.com
+              ikonetwork3@gmail.com </marquee> 
             </div>
           </div>
         </nav>

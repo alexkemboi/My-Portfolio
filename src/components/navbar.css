@@ -1,4 +1,7 @@
 .lightblue{
     position: sticky;
     background-color: blue;
+    align-content: center;
+    padding-left: 20%;
+    font-size: x-large;
 }
