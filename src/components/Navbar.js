@@ -12,8 +12,8 @@ class Navbar extends Component {
                               ALEX KEMBOI CV
                             </Link>
                             <Link to="/" data-target="side-nav" className="sidenav-trigger">
-                                {/* <i className='material-icons'>menu</i> */}
-                                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                                <i className='material-icons'>menu</i>
+                               
                             </Link>
                             <ul className="right hide-on-med-and-down">
                                 <li>
