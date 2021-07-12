@@ -18,8 +18,11 @@ import {HashLink as Link} from "react-router-hash-link"
         ALEX KEMBOI
     </span>
     <p>Software Developer</p>
+    
 </div>
             </div>
+            
+            
         );
     }
 }

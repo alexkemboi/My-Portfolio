@@ -6,6 +6,7 @@ import Portfolios from './Portfolios';
 import Navbar from './Navbar';
 import Education from './Education';
 import About from './About';
+import Referees from './Referees';
 export default class Home extends Component {
     render() {
         return (<div>
@@ -20,8 +21,9 @@ export default class Home extends Component {
                         <div className="col s12 m8 l9">
                         <About />
                         <Skill />
-                        <Education />
-                        <Portfolios />
+                        <Experience/>
+                        <Education />     
+                        <Referees/>                   
                         </div>
                     </div>
                 </div>

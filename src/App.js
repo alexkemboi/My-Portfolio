@@ -9,6 +9,7 @@ import Profile from './components/Profile';
 import Experience  from './components/Experience';
 import Portfolios from './components/Portfolios';
 import Education from './components/Education';
+import Referees from './components/Referees';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Education" component={Education}/>
         <Route path="/Experience" component={Experience}/>
         <Route path="/Portfolios" component={Portfolios}/>
+        <Route path="/Referees" component={Referees}/>
       </Switch>
 
       </>
