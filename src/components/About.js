@@ -7,9 +7,10 @@ export default class About extends Component {
             
            <div className="card">
             <div className="card content">
+                
+                <p className="card-content " >
                 <h6 className='mt-button'><strong>
                     ABOUT ME</strong></h6>
-                <p className="grey-text ">
                     A highly efficient, methodical and talented software engineer with experience
                     in developing and implementing effective software, troubleshooting
                     computers, data entry and analysis and network installation and configuration.
@@ -18,8 +19,13 @@ export default class About extends Component {
                     organization. I will be happy to exploit my full potential and sense of obligation
                     for the benefit of the organization and community at large
                 </p>
-                <div className="card action">
-                    <h6>
+                
+            </div>
+
+            </div>
+            <div className="card">
+                <div className="card-content">
+                <h6>
                     <strong>
                         PERSONAL INFO
                     </strong>
@@ -39,7 +45,6 @@ export default class About extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>)
     }

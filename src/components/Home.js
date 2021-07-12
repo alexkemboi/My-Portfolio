@@ -6,6 +6,8 @@ import Navbar from './Navbar';
 import Education from './Education';
 import About from './About';
 import Referees from './Referees';
+import Portfolios from './Portfolios';
+import footers from './footer';
 export default class Home extends Component {
     render() {
         return (<div>
@@ -21,11 +23,14 @@ export default class Home extends Component {
                         <About />
                         <Skill />
                         <Experience/>
-                        <Education />     
-                        <Referees/>                   
+                        <Education /> 
+                        <footers/>      
+                        <Referees/>                           
+                                    
                         </div>
                     </div>
                 </div>
+                <Portfolios/>
             </section>
         </div>);
     }

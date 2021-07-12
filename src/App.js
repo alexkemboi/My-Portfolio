@@ -10,7 +10,7 @@ import Experience  from './components/Experience';
 import Portfolios from './components/Portfolios';
 import Education from './components/Education';
 import Referees from './components/Referees';
-
+import footers from './components/footer';
 function App() {
   return (
     <Router>
@@ -24,10 +24,12 @@ function App() {
         <Route path="/Experience" component={Experience}/>
         <Route path="/Portfolios" component={Portfolios}/>
         <Route path="/Referees" component={Referees}/>
+        
       </Switch>
-
+      <Route path="/footers" component={footers}/>
       </>
     </Router>
+    
   );
 }
 

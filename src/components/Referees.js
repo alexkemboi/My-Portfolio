@@ -4,6 +4,7 @@ class Referees extends Component {
     render() {
         return (
             <div className="card action">
+                <div className="card-content">
                 <h6>
                     <strong>
                         REFEREES INFO
@@ -30,7 +31,7 @@ class Referees extends Component {
                         <p><strong> </strong>0723036458</p>
                         </div>
                     </div>
-                   
+                    </div>
                 </div>
             </div>
         );

@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link'
+import './navbar.css'
 class Navbar extends Component {
     render() {
         return (
             <>
-                <nav className="light-blue darken-4">
+                <nav className="lightblue">
                     <div className="container">
                         <div className="nav-wrapper">
                             <Link to="/" className='brand-logo'>
-                              ALEX KEMBOI CV 2021
+                              ALEX KEMBOI CV
                             </Link>
                             <Link to="/" data-target="side-nav" className="sidenav-trigger">
-                                <i className='material-icons'>menu</i>
+                                {/* <i className='material-icons'>menu</i> */}
+                                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                             </Link>
-                            <ul className="right hide-on-and-downs">
+                            <ul className="right hide-on-med-and-down">
                                 <li>
                                     <Link to="/" >
                                         <i className='fas fa-home'></i>Home
@@ -44,7 +46,8 @@ class Navbar extends Component {
                         </div>
                     </div>
                 </nav>
-                <ul className='sidenav' id="side-nav">
+                {/* <ul className='sidenav' id='side-nav'> */}
+                <ul id="slide-out" className="sidenav">
                     <li>
                         <Link to="/" >
                             <i className='fas fa-home'></i>Home
