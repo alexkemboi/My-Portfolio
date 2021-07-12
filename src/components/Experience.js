@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Portfolios from './Portfolios';
-
 export default class Experience extends Component {
     render() {
         return (                      
