@@ -5,6 +5,7 @@ class Education extends Component{
       return(
         <div>
            
+
             <div className="card">
                 <div className="card-content">
                     <h6><strong>EDUCATION</strong></h6>
@@ -40,6 +41,7 @@ class Education extends Component{
                     </table>
                 </div>
             </div>
+          
         </div>
       ); 
     }

@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, {} from 'react';
 
-export default class Experience extends Component {
-    render() {
+function Experience(x) {
         return (                      
            
             <section>
+
 
                 <div >
                     <div className="row" >
@@ -156,8 +156,11 @@ export default class Experience extends Component {
             </div>
  
                     </div>
-                </div>
+                    </div>
+
+                
             </section>
         );
     }
-}
+
+export default Experience;

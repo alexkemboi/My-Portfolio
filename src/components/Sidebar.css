@@ -1,0 +1,36 @@
+.sidebash{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(11, 5, 59);
+    height:100vh;
+    width: 250px;
+    justify-content: start;
+    align-items: center ;
+    position: absolute;
+    padding:5px;
+    left:-100%;
+    
+
+}
+.side{
+    background-color: rgb(11, 5, 59);
+    height:85vh;
+    width: 250px;
+    justify-content: start;
+    align-items: center ;
+    position: fixed;
+    padding:5px;
+    left:0%;
+    transition:10s;
+}
+.sidenav-trigger{
+    position: absolute;
+    right:0;
+    font-size: xx-large;
+    margin:10px;
+    color: red;
+}
+.fas{
+    color: white;
+    margin:10px;
+}

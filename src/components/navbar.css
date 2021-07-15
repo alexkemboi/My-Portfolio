@@ -1,7 +1,21 @@
 .lightblue{
     position: sticky;
-    background-color: blue;
     align-content: center;
     padding-left: 20%;
     font-size: x-large;
+    background-color: rgb(11, 5, 59);
+}
+.smallscreen{
+    display: none;
+
+}
+@media screen and (max-width:750px)  {
+    .smallscreen{
+        position: absolute;
+       
+display:inline-block;
+left:0;
+margin: 10px;
+font-size: xx-large;
+    }
 }
