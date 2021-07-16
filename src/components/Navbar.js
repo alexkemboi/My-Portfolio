@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './navbar.css';
 import * as FaIcons from "react-icons/fa"
-import Sidebar from './Sidebar';
 function Navbar() {
     
     return (
